@@ -100,7 +100,7 @@ All [Manifest V3 extensions](/documentation/develop/manifest-v3-migration-guide/
 
 All [Manifest V3 extensions](/documentation/develop/manifest-v3-migration-guide/) need an add-on ID in their manifest.json when submitted to AMO.
 
-For Manifest V2 extensions, you need an add-on ID when:
+For Manifest V2 extensions, you need an add-on ID when any of the following are true:
 
 - If you want to install an unsigned add-on from its XPI file, rather than loading it temporarily using `about:debugging`.
 - If you want to have a value other than a randomly generated ID upon [getting your extension signed](/documentation/publish/#get-your-extension-signed) for the first time.
